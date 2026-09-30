@@ -1,0 +1,22 @@
+{
+  "id": "retail-store-supervisor",
+  "title": "Retail Store Supervisor",
+  "requirements": [
+    { "id": "customer-service", "name": "Customer service", "status": "required",
+      "aliases": [{ "text": "customer service" }, { "text": "customer experience" }, { "text": "customer support" }] },
+    { "id": "cash-handling", "name": "Cash handling", "status": "required",
+      "aliases": [{ "text": "cash handling" }, { "text": "handled cash" }, { "text": "cash management" }] },
+    { "id": "stock", "name": "Stock management", "status": "required",
+      "aliases": [{ "text": "stock management" }, { "text": "stock control" }, { "text": "inventory" }, { "text": "stocktake*" }] },
+    { "id": "pos", "name": "POS systems", "status": "required",
+      "aliases": [{ "text": "POS", "matchCase": true }, { "text": "point of sale" }, { "text": "point-of-sale" }] },
+    { "id": "rostering", "name": "Rostering", "status": "preferred",
+      "aliases": [{ "text": "roster*" }, { "text": "staff scheduling" }] },
+    { "id": "leadership", "name": "Team leadership", "status": "preferred",
+      "aliases": [{ "text": "team leader*" }, { "text": "supervis*" }, { "text": "trained new staff" }] },
+    { "id": "merchandising", "name": "Visual merchandising", "status": "preferred",
+      "aliases": [{ "text": "visual merchandising" }, { "text": "merchandis*" }] },
+    { "id": "rsa", "name": "RSA", "status": "preferred",
+      "aliases": [{ "text": "RSA", "matchCase": true }, { "text": "responsible service of alcohol" }] }
+  ]
+}

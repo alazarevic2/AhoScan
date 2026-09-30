@@ -1,0 +1,22 @@
+{
+  "id": "assistant-accountant",
+  "title": "Assistant Accountant",
+  "requirements": [
+    { "id": "software", "name": "Xero or MYOB", "status": "required",
+      "aliases": [{ "text": "xero" }, { "text": "myob" }] },
+    { "id": "reconciliation", "name": "Reconciliations", "status": "required",
+      "aliases": [{ "text": "reconcil*" }] },
+    { "id": "reporting", "name": "Financial reporting", "status": "required",
+      "aliases": [{ "text": "financial reporting" }, { "text": "financial statement*" }, { "text": "month-end" }, { "text": "month end" }] },
+    { "id": "payables", "name": "Accounts payable/receivable", "status": "required",
+      "aliases": [{ "text": "accounts payable" }, { "text": "accounts receivable" }] },
+    { "id": "bas", "name": "BAS / GST", "status": "preferred",
+      "aliases": [{ "text": "BAS", "matchCase": true }, { "text": "GST", "matchCase": true }, { "text": "business activity statement*" }] },
+    { "id": "excel", "name": "Excel", "status": "preferred",
+      "aliases": [{ "text": "excel" }, { "text": "spreadsheet*" }] },
+    { "id": "payroll", "name": "Payroll", "status": "preferred",
+      "aliases": [{ "text": "payroll" }] },
+    { "id": "qualification", "name": "CPA / CA", "status": "preferred",
+      "aliases": [{ "text": "CPA", "matchCase": true }, { "text": "chartered accountant*" }] }
+  ]
+}

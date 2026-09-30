@@ -1,0 +1,22 @@
+{
+  "id": "software-engineer",
+  "title": "Software Engineer",
+  "requirements": [
+    { "id": "java", "name": "Java", "status": "required",
+      "aliases": [{ "text": "java" }] },
+    { "id": "javascript", "name": "JavaScript", "status": "required",
+      "aliases": [{ "text": "javascript" }, { "text": "typescript" }] },
+    { "id": "sql", "name": "SQL databases", "status": "required",
+      "aliases": [{ "text": "sql" }, { "text": "postgresql" }, { "text": "mysql" }] },
+    { "id": "rest-api", "name": "REST APIs", "status": "required",
+      "aliases": [{ "text": "rest api" }, { "text": "restful" }] },
+    { "id": "api", "name": "API design", "status": "preferred",
+      "aliases": [{ "text": "api" }, { "text": "apis" }] },
+    { "id": "docker", "name": "Containers", "status": "preferred",
+      "aliases": [{ "text": "docker" }, { "text": "kubernetes" }] },
+    { "id": "cpp", "name": "C++", "status": "preferred",
+      "aliases": [{ "text": "c++" }] },
+    { "id": "it-support", "name": "IT support", "status": "preferred",
+      "aliases": [{ "text": "IT", "matchCase": true }, { "text": "helpdesk" }] }
+  ]
+}

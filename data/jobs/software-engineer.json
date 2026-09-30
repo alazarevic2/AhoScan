@@ -1,0 +1,83 @@
+{
+  "id": "software-engineer",
+  "title": "Software Engineer",
+  "requirements": [
+    {
+      "id": "javascript",
+      "name": "Javascript",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "Javascript",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "Python",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "apis",
+      "name": "APIs",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "APIs",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "teamwork",
+      "name": "teamwork",
+      "status": "preferred",
+      "aliases": [
+        {
+          "text": "teamwork",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "visual-studio-code",
+      "name": "Visual Studio Code",
+      "status": "preferred",
+      "aliases": [
+        {
+          "text": "Visual Studio Code",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "node-js",
+      "name": "Node.js",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "Node.js",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "name": "Github",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "Github",
+          "matchCase": false
+        }
+      ]
+    }
+  ]
+}

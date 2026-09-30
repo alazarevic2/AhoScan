@@ -1,0 +1,26 @@
+DANIEL KIM
+Computer Science graduate
+Perth WA | daniel.kim@example.com | 0478 000 756
+
+SUMMARY
+Recent Computer Science graduate looking for a first software role. Strongest in C++ and Java from university projects, with two years of part-time IT support experience.
+
+EXPERIENCE
+IT Support Officer (part-time) (2023 – 2025)
+Riverside University Library, Perth WA
+- Worked on the library helpdesk, fixing printing, Wi-Fi and account problems for students and staff.
+- Set up and imaged 120 student laptops each semester.
+
+Final-year project (2024)
+Riverside University, Perth WA
+- Wrote a route-planning engine in C++ for the campus shuttle, using Dijkstra's algorithm.
+- Stored timetables in a SQL database and wrote the queries for the app.
+
+EDUCATION
+Bachelor of Computer Science, Riverside University, 2022 – 2024
+
+SKILLS
+C++, Java, SQL, Linux, Git, Troubleshooting
+
+VOLUNTEERING
+Tutor, Riverside Coding Society: weekly help sessions for first-year students (2023 – 2024).

@@ -1,0 +1,127 @@
+{
+  "id": "marketing-coordinator",
+  "title": "Marketing Coordinator",
+  "requirements": [
+    {
+      "id": "social-media",
+      "name": "Social media",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "social media",
+          "matchCase": false
+        },
+        {
+          "text": "instagram",
+          "matchCase": false
+        },
+        {
+          "text": "tiktok",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "content-creation",
+      "name": "Content creation",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "content creation",
+          "matchCase": false
+        },
+        {
+          "text": "content creator",
+          "matchCase": false
+        },
+        {
+          "text": "created content",
+          "matchCase": false
+        },
+        {
+          "text": "copywrit*",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "name": "SEO",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "SEO",
+          "matchCase": false
+        },
+        {
+          "text": "search engine optimi*",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "campaign-management",
+      "name": "Campaign management",
+      "status": "required",
+      "aliases": [
+        {
+          "text": "campaign management",
+          "matchCase": false
+        },
+        {
+          "text": "managed campaigns",
+          "matchCase": false
+        },
+        {
+          "text": "campaign manag*",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "google-analytics",
+      "name": "Google Analytics",
+      "status": "preferred",
+      "aliases": [
+        {
+          "text": "google analytics",
+          "matchCase": false
+        },
+        {
+          "text": "GA4",
+          "matchCase": true
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "status": "preferred",
+      "aliases": [
+        {
+          "text": "canva",
+          "matchCase": false
+        }
+      ]
+    },
+    {
+      "id": "email-marketing",
+      "name": "Email marketing",
+      "status": "preferred",
+      "aliases": [
+        {
+          "text": "email marketing",
+          "matchCase": false
+        },
+        {
+          "text": "email campaign*",
+          "matchCase": false
+        },
+        {
+          "text": "mailchimp",
+          "matchCase": false
+        }
+      ]
+    }
+  ]
+}

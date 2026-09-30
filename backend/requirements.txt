@@ -1,0 +1,7 @@
+# Tested with Python 3.14.
+fastapi>=0.141,<1
+uvicorn>=0.54,<1
+python-multipart>=0.0.20   # lets FastAPI receive uploaded files
+pypdf>=6.0                 # reads text from PDF resumes
+python-docx>=1.1           # reads text from Word (.docx) resumes
+pytest>=9.0                # only needed to run test_engine.py

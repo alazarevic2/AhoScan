@@ -1,0 +1,22 @@
+{
+  "id": "registered-nurse",
+  "title": "Registered Nurse",
+  "requirements": [
+    { "id": "patient-care", "name": "Patient care", "status": "required",
+      "aliases": [{ "text": "patient care" }, { "text": "patient-centred care" }] },
+    { "id": "medication", "name": "Medication administration", "status": "required",
+      "aliases": [{ "text": "medication administ*" }, { "text": "administering medication*" }, { "text": "administered medication*" }] },
+    { "id": "clinical-assessment", "name": "Clinical assessment", "status": "required",
+      "aliases": [{ "text": "clinical assessment*" }, { "text": "patient assessment*" }, { "text": "nursing assessment*" }] },
+    { "id": "ahpra", "name": "AHPRA registration", "status": "required",
+      "aliases": [{ "text": "AHPRA", "matchCase": true }] },
+    { "id": "wound-care", "name": "Wound care", "status": "preferred",
+      "aliases": [{ "text": "wound care" }, { "text": "wound management" }, { "text": "wound dressing*" }] },
+    { "id": "infection-control", "name": "Infection control", "status": "preferred",
+      "aliases": [{ "text": "infection control" }, { "text": "infection prevention" }] },
+    { "id": "life-support", "name": "Life support", "status": "preferred",
+      "aliases": [{ "text": "basic life support" }, { "text": "advanced life support" }, { "text": "BLS", "matchCase": true }, { "text": "ALS", "matchCase": true }] },
+    { "id": "medical-records", "name": "Electronic medical records", "status": "preferred",
+      "aliases": [{ "text": "electronic medical record*" }, { "text": "EMR", "matchCase": true }] }
+  ]
+}
