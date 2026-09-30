@@ -7,19 +7,30 @@ algorithm (`backend/aho_corasick.py`).
 
 ## Running it
 
-No compiling needed. You need Python 3.10+ and Node.js 18+.
+You need **Python 3.10+** and **Node.js 18+**. Nothing needs compiling; you
+only install the packages the first time.
 
-**Backend** (terminal 1):
+**1. Get the code**
+
+```bash
+git clone https://github.com/alazarevic2/AhoScan.git
+cd AhoScan
+```
+
+**2. Backend** (terminal 1, from the `AhoScan` folder)
 
 ```bash
 cd backend
 python -m venv .venv
-.venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
+.venv\Scripts\activate
 pip install -r requirements.txt
 python run.py
 ```
 
-**Frontend** (terminal 2):
+On macOS/Linux, activate with `source .venv/bin/activate` instead.
+Leave this terminal running.
+
+**3. Frontend** (terminal 2, from the `AhoScan` folder)
 
 ```bash
 cd frontend
@@ -27,11 +38,21 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173.
+**4. Open http://localhost:5173**
 
-To try it, copy the files in `data/examples/` into `data/jobs/` before starting
-the backend (this adds five example jobs), then upload resumes from the matching
-folder in `sample-resumes/`.
+**Next time**, skip the install steps: in terminal 1 run `cd backend`,
+`.venv\Scripts\activate`, `python run.py`, and in terminal 2 run
+`cd frontend`, `npm run dev`.
+
+**Windows tips:** if `python` opens the Microsoft Store, use `py` instead.
+If PowerShell refuses to run `activate` or `npm`, run
+`Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, or use `npm.cmd`.
+
+## Trying it with the sample data
+
+Copy the files in `data/examples/` into `data/jobs/` (before starting the
+backend) to add five example jobs. Then choose a job in the app and upload the
+resumes from the matching folder in `sample-resumes/`.
 
 ## Tests
 
@@ -47,4 +68,4 @@ pytest
 - `backend/`: the rest of the API (jobs, file reading, results)
 - `frontend/src/`: the React app
 - `data/`: saved jobs and example jobs
-- `sample-resumes/`: fictional resumes (PDF, DOCX, TXT) for five industries, to try the app with
+- `sample-resumes/`: fictional resumes (PDF, DOCX, TXT) for five industries

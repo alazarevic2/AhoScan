@@ -1,0 +1,11 @@
+# Recreated by "npm install" and "pip install"
+frontend/node_modules/
+backend/.venv/
+
+# Generated automatically
+__pycache__/
+.pytest_cache/
+frontend/dist/
+
+# Personal editor settings
+.vscode/
